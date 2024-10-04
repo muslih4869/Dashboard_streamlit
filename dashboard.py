@@ -6,11 +6,14 @@ import matplotlib.pyplot as plt
 st.write(
     """
     # Dashboard Submission
-    Belajar analisis data dengan Python
+    Belajar analisis data dengan Python oleh M. Muslih Attoyibi
     """
 )
 
-st.write("Di sini, kita akan mencoba menganalisis data Air-quality-dataset")
+st.write("Di sini, kita akan mencoba menganalisis data Air-quality-dataset : https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view")
+st.write("Analisis ini dilakukan untuk menjawab dua buah pertanyaan, yakni : ")
+st.write("1. Bagaimana perbandingan kualitas udara di setiap station berdasarkan konsentrasi rata-rata NO2/Nitrogennya?")
+st.write("2. Bagaimana perkembangan suhu rata-rata di station Gucheng dari tahun 2013 sampai tahun 2017?")
 
 # Load datasets
 df_1 = pd.read_csv("PRSA_Data_Tiantan_20130301-20170228.csv", delimiter=",")
